@@ -16,4 +16,4 @@
 
 ## Commands
 - **npm run serve** - run the application in development mode
-- **npm run build** - build to application for deployment (_dist_ folder; it uses by default the _modern_ feature of the build plugin)
+- **npm run build** - build the application for deployment (_dist_ folder; it uses by default the _modern_ feature of the build plugin)
