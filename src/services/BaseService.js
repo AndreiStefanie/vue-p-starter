@@ -11,7 +11,7 @@ export default class BaseService {
      * @protected
      */
     this._handler = axios.create({
-      baseURL: `https://dog.ceo`,
+      baseURL: ``,
       withCredentials: false,
       headers: {
         Accept: 'application/json',
