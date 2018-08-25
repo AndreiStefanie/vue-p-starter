@@ -12,6 +12,18 @@
 import { loadLanguageAsync } from './i18n';
 
 export default {
+  metaInfo() {
+    return {
+      // if no subcomponents specify a metaInfo.title, this title will be used
+      title: 'Vue-P-Starter',
+      // all titles will be injected into this template
+      titleTemplate: '%s | Vue-P-Starter',
+      htmlAttrs: {
+        lang: this.$i18n.locale || 'en',
+        amp: undefined // "amp" has no value
+      }
+    };
+  },
   created() {
     this.setupLocale();
   },

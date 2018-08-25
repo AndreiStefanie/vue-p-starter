@@ -17,3 +17,9 @@
 ## Commands
 - **npm run serve** - run the application in development mode
 - **npm run build** - build the application for deployment (_dist_ folder; it uses by default the _modern_ feature of the build plugin)
+- **npm run analyze-bundle** - build and generate the bundle report
+  
+You might also want to give Vue CLI UI a try. It's really cool.  
+You will need to install the Vue CLI:  
+`npm install -g @vue/cli` (if you are on UNIX systems admin rights might be required)  
+Execute the command `vue ui` which will open the Vue UI in the browser where you can **Import** the project (it's easier if you run the command in the project's root directory).

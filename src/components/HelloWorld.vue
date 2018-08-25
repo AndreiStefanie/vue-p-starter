@@ -4,25 +4,25 @@
     <p>
       For guide and recipes on how to configure / customize this project,<br>
       check out the
-      <a href="https://cli.vuejs.org" target="_blank">vue-cli documentation</a>.
+      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
     <div v-if="$store.getters['links/hasLinks']">
       <h3>Installed CLI Plugins</h3>
       <ul>
         <li v-for="p in plugins" :key="p.name">
-          <a :href="p.link" target="_blank">{{ p.name }}</a>
+          <a :href="p.link" target="_blank" rel="noopener">{{ p.name }}</a>
         </li>
       </ul>
       <h3>Essential Links</h3>
       <ul>
         <li v-for="e in essentials" :key="e.name">
-          <a :href="e.link" target="_blank">{{ e.name }}</a>
+          <a :href="e.link" target="_blank" rel="noopener">{{ e.name }}</a>
         </li>
       </ul>
       <h3>Ecosystem</h3>
       <ul>
         <li v-for="es in ecosystem" :key="es.name">
-          <a :href="es.link" target="_blank">{{ es.name }}</a>
+          <a :href="es.link" target="_blank" rel="noopener">{{ es.name }}</a>
         </li>
       </ul>
     </div>
